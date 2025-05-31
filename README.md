@@ -2,7 +2,7 @@
 
 ## Table of Contents:
 
-### I. [New Technology File System](#NTFS)
+### I. [NTFS](#NTFS)
 ### II. Group Policy Management
 ### III. Firewall Rules
 ### IV. Applying DNS + Filtering
