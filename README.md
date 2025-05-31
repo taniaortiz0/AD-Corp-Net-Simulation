@@ -58,7 +58,7 @@ Configuring OpenSSH Server for Secure File Transfer Protocol (SFTP)
 
 ## 🗄️ Windows Server Update Services
 
-Configuring Windows Server Update Services (WSUS) for users to have automatic updates and patch management available. 
+Configuring WSUS for users to have automatic updates and patch management available. 
 
 ## 🔐 OpenVPN Access Server
 Configuring OpenVPN Access Server  
