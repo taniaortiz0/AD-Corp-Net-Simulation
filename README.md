@@ -1,4 +1,4 @@
-# Active-Directory-Corporate-Network-Simulation
+# Active Directory Corporate Network Simulation
 
 ## Table of Contents:
 
