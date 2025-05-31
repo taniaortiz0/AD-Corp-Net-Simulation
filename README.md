@@ -2,7 +2,7 @@
 
 ## Table of Contents:
 
-###  I. [NTFS](NTFS)
+###  I. [NTFS](https://github.com/taniaortiz0/AD-Corp-Net-Simulation/edit/main/README.md)
 ### II. Group Policy Management
 ### III. Firewall Rules
 ### IV. Applying DNS + Filtering
