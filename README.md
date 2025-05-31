@@ -7,7 +7,7 @@
 3. [Firewall Rules](#-Firewall-Rules)
 4. [DNS Proxy](#-DNS-Proxy)
 5. [OpenSSH Server](#-OpenSSH-Server) 
-6. [Windows Server Update Services](#-WindowsServer-Update-Services)
+6. [Windows Server Update Services](#-Windows-Server-Update-Services)
 7. [OpenVPN Access Server](#-OpenVPN-Access-Server)
 
 
