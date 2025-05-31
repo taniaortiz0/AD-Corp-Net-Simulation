@@ -1,15 +1,19 @@
-# Active-Directory-Corp-Network-Simulation
+# Active-Directory-Corporate-Network-Simulation
 
 ## Table of Contents:
 
-### I. NTFS (New Technology File System) Permissions
+### I. [New Technology File System](#NTFS)
 ### II. Group Policy Management
 ### III. Firewall Rules
 ### IV. Applying DNS + Filtering
 ### V. OpenSSH Server 
 ### VI. Windows Server Update Services (WSUS)
 ### VII. OpenVPN Access Server 
+
+
 _____________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+## 📁 NTFS
 
   ![image](https://github.com/user-attachments/assets/c2a15292-a52f-4d7c-a547-d1859f548877)  ![image](https://github.com/user-attachments/assets/e31751de-caf6-4764-aed9-43d32804f9ea)
 
