@@ -22,12 +22,12 @@ I ran dsa.msc to manage Active Directory Users and Computers (ADUC) for users ac
 
 ## 📑 Group Policy Management
 
-![image](https://github.com/user-attachments/assets/52db9189-e41d-44b7-b15b-c56e22ad3e68)
-
-
-
+[INSERT IMAGE] 
 
 I ran gpmc.msc and implemented security practices in the group policy management service. I updated the Password Policy such as minimum password length, password complexity, maximum password age, minimum password age, and enforce password history. 
+
+
+![prevent usb storage devices](https://github.com/user-attachments/assets/c8ba6c64-70d9-40a7-a3f2-23bbb16efc94)
 
 Additionally, I configured the Removable Storage Access to prevent access to USB drives. After the Group Policy Management has been configured, I ran gpupdate / force to apply the updates in an instance for these configurations. 
 
