@@ -34,7 +34,12 @@ I updated the Password Policy using Powershell such as modifying the minimum pas
 
 ![prevent usb storage devices](https://github.com/user-attachments/assets/c8ba6c64-70d9-40a7-a3f2-23bbb16efc94)
 
-Additionally, I configured the Removable Storage Access to prevent access to USB drives. After the Group Policy Management has been configured, I ran gpupdate / force to apply the updates in an instance for these configurations. 
+Additionally, I configured the Removable Storage Access to prevent access to USB drives. After the Group Policy Management has been configured, I then apply the updates in an instance for these configurations.
+
+```powershell
+
+gpupdate / force
+```
 
 ## 🧱 Firewall Rules
 
