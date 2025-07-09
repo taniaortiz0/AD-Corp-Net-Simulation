@@ -16,3 +16,13 @@
 - wuauclt /detectnow: Forces the client machine to immediately check for updates from the WSUS server. 
 
 ---
+## Password Policies
+
+On the command line, I implemented some password policies.
+
+```cmd
+net accounts /minpwlen:8  #minimum password length
+net accounts /maxpwage:90 #maxium password age            
+net accounts /minpwage:1  #minimum password age            
+net accounts /uniquepw:10 #the last ten unique passwords used
+```
