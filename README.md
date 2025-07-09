@@ -22,14 +22,14 @@ I ran dsa.msc to manage Active Directory Users and Computers (ADUC) for users ac
 
 ## 📑 Group Policy Management
 
-```powershell
-net accounts /minpwlen:8
-net accounts /maxpwage:90            
-net accounts /minpwage:1              
-net accounts /uniquepw:10
+```cmd
+net accounts /minpwlen:8  #minimum password length
+net accounts /maxpwage:90 #maxium password age            
+net accounts /minpwage:1  #minimum password age            
+net accounts /uniquepw:10 #the last ten unique passwords used
 ```
 
-I updated the Password Policy using Powershell such as modifying the minimum password length, password complexity, maximum password age, minimum password age, and enforce password history. 
+I updated the Password Policy using the Command Prompt (Terminal) such as modifying the minimum password length, password complexity, maximum password age, minimum password age, and enforce password history. 
 
 
 ![prevent usb storage devices](https://github.com/user-attachments/assets/c8ba6c64-70d9-40a7-a3f2-23bbb16efc94)
