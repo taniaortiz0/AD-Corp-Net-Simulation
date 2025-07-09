@@ -12,13 +12,20 @@
 ---
 ## Updates 
 
-- gpupdate /force : Forces the Group Policy to update on the client machine to ensure it's using the latest WSUS settings.
-- wuauclt /detectnow: Forces the client machine to immediately check for updates from the WSUS server. 
+```cmd
+gpupdate / force
+```
+
+- Forces the Group Policy to update on the client machine to ensure it's using the latest WSUS settings.
+  
+```powershell
+wuauclt / detectnow
+```
+
+- Forces the client machine to immediately check for updates from the WSUS server. 
 
 ---
 ## Password Policies
-
-On the command line, I implemented some password policies.
 
 ```cmd
 net accounts /minpwlen:8  #minimum password length
