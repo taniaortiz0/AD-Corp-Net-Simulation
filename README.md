@@ -1,5 +1,9 @@
 # Active Directory Corporate Network Simulation
 
+## 📖 Objective
+
+In this lab, I am taking a step ahead and upgrade the active directory home lab into a corporate network where I can implement security practices. I am going to be using the applications that comes pre-installed with Windows Active Directory and install/configure secure connectivity/networking solutions (OpenSSH and OpenVPN).
+
 ## Table of Contents:
 
 1. [NTFS](#-NTFS)
@@ -36,8 +40,7 @@ I updated the Password Policy using the Command Prompt (Terminal) such as modify
 
 Additionally, I configured the Removable Storage Access to prevent access to USB drives. After the Group Policy Management has been configured, I then apply the updates in an instance for these configurations.
 
-```powershell
-
+```cmd
 gpupdate / force
 ```
 
@@ -48,7 +51,8 @@ I ran wf.msc to apply firewall rules for Inbound/Outbound traffic using Microsof
 - Created a new rule (Inbound/Outbound) from the Inbound Rules or Outbound Rules
 - Specified the port 53 (UDP)
 - Allow the connection if it is secure
-- For Inbound I selected Domain and Private and Outbound I selected all profiles (Domain, Private, and Public)
+- For Inbound, I selected Domain and Private
+- For Outbound, I selected all profiles (Domain, Private, and Public)
 - I keep everything else as default and created the rules
 
 ![image](https://github.com/user-attachments/assets/680bfcc9-9128-452e-9d76-2c1092f13659)  ![image](https://github.com/user-attachments/assets/f97714ff-0f03-490e-bec0-05754d70cb36)
@@ -69,5 +73,6 @@ Configuring OpenSSH Server for Secure File Transfer Protocol (SFTP)
 Configuring WSUS for users to have automatic updates and patch management available. 
 
 ## 🔐 OpenVPN Access Server
+
 Configuring OpenVPN Access Server  
 
